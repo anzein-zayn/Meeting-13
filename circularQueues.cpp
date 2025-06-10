@@ -37,3 +37,12 @@ public:
         queue_array[rear] = num;
 
 }
+
+void remove()
+{
+    if (front == -1){
+        cout << "Queue underflow\n";
+        return;
+    }
+    cout <<  "\nThe element deleted from the queue is : " << queue_array[front] << "\n";
+}
