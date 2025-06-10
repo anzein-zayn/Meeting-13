@@ -57,3 +57,8 @@ void remove()
             front = front + 1;
     }
 }
+
+void display(){
+    int front_position = front ; 
+    int rear_position = rear;
+}
