@@ -17,5 +17,12 @@ public:
         cout << "Enter a number : ";
         cin >> num;
         cout << endl;
-    }
+        
+        if ((front == 0 && rear == max-1) || (front == rear + 1))
+        {
+            cout << "\nQueue overflow\n";
+            return;
+        }
+
+
 }
